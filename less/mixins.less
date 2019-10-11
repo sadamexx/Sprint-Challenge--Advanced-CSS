@@ -1,1 +1,20 @@
 // Mixins Here
+
+//button mixin
+.custom-btn(@fntsize,@txt-color){
+    background-color: @bg-color;
+    margin:10px;
+    cursor: pointer;
+    width: 90%;
+    height: 45px;
+    font-size:@fntsize;
+    border-radius: 10px;
+    color:@txt-color;
+    padding: 5px 0;
+
+    &:hover{
+        background-color: @txt-color;
+        color:@bg-color;
+    }//ends hover
+}//ends button mixin
+   
