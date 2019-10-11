@@ -161,19 +161,29 @@ p {
   margin: 0 auto;
 }
 .top {
+  background-color: #F6F6F6;
   width: 100%;
-  background-color: whitesmoke;
-  border: 1px solid red;
-}
-nav {
   display: flex;
+  justify-content: space-evenly;
+}
+.top nav {
+  display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
+  align-items: center;
+  margin: 10px;
 }
-nav h1 {
-  font-size: 2.8rem;
+.top nav h1 {
+  font-size: 4rem;
+  padding: 10px;
 }
-nav h1 a {
-  font-size: 2rem;
+.top nav h1 .links {
+  display: flex;
+  width: 100%;
+}
+.links a {
+  text-decoration: none;
+  font-size: 1.8rem;
 }
 footer {
   color: #22283B;
@@ -202,6 +212,11 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
+@media (max-width: 500) {
+  .home .space-images img .sky {
+    display: none;
+  }
+}
 .home .visit-planets {
   padding: 15px;
 }
@@ -227,14 +242,18 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  width: 50%;
+}
 .home .walk .walk-text .btn .signUp {
-  display: block;
   background-color: #22283A;
-  border-radius: 2rem;
-  width: 20%;
-  font-size: 1.5rem;
-  padding: 1rem;
+  margin: 10px;
   cursor: pointer;
+  height: 45px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  color: #F6F7F8;
+  padding: 5px 0;
 }
 .home .walk .walk-text .btn .signUp:hover {
   background-color: #F6F7F8;

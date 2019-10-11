@@ -1,19 +1,32 @@
 // Navigation code here
 
 .top{
-    width: 100%;
-    background-color: whitesmoke;
-    border: 1px solid red;
-}
-nav {
+    background-color: @nav-bg;
+    width:100%;
     display:flex;
+    justify-content: space-evenly;
+    
+    nav {
+    display:flex;
+    flex-wrap: wrap;
     flex-direction: column;
-   
-       h1{
-        font-size:2.8rem;
+    align-items: center;
         
-    a{
-        font-size: 2rem;
-    }    
+    margin: 10px;
+           
+        h1{
+        font-size: 4rem;
+        padding:10px;
+
+            .links {
+            display:flex;  
+            width: 100%;
+            }           
+        }    
     }//ends h1 
 }//ends navigation
+
+.links a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    }
