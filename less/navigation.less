@@ -1,32 +1,34 @@
 // Navigation code here
 
-.top{
+.container-top{
     background-color: @nav-bg;
     width:100%;
     display:flex;
-    justify-content: space-evenly;
-    
-    nav {
-    display:flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
-        
-    margin: 10px;
-           
-        h1{
+    justify-content: center;
+    
+    h1{
         font-size: 4rem;
         padding:10px;
-
-            .links {
-            display:flex;  
-            width: 100%;
-            }           
-        }    
-    }//ends h1 
-}//ends navigation
-
-.links a{
-    text-decoration: none;
-    font-size: 1.8rem;
+        text-align: center;
     }
+
+    nav {
+    display:flex;
+    justify-content: center;        
+    margin: 10px;
+
+        a {
+            margin-left: 8px;
+            margin-right: 8px;
+            font-size: 1.8rem;
+            color: @nav-font;
+            text-decoration: none;
+        }
+    }
+           
+        
+
+ 
+}
+
