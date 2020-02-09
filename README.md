@@ -33,14 +33,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+    The main difference between adaptive and responsive is that typically a responsive layout can accommodate for thousands of screen sizes, whereas adaptive usually only has a few set viewpoints. 
 
 2. Describe what it means to be mobile first vs desktop first.
+    Mobile first means that we are designing with the idea that we will design our website for a mobile device first. Today’s most used devices are handheld, so it makes sense to design for the most popular viewpoint first and then work back to the desktop view. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-
+    Most browsers use a default size of 16px as the font size. When we use 62.5% in the html tag, we are able to use that size to calculate a rem. Thus, 16 *.625 is 10px or one rem. If we want a size of 18 px on the screen, we can put 1.8rem
 4. How would you describe preprocessing to someone new to CSS?
+    If we think of vanilla CSS as a postman delivering information one letter at a time, preprocessing is like a mail sorting room. We get it all sorted out first in preprocessing. We sort first by state or each stylesheet. Once we get those sorted, then we can sort by city or by sections, zip codes are containers, streets are divs and houses are elements. Basically, preprocessing helps us to sort faster and get the information where it needs to be.
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? I like the nesting aspect of preprocessing, but it can get messy if you don’t keep track. I also like that you can set variables, but again I feel I need more practice. Media inquries still give me trouble.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
